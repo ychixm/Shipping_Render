@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/shipping_render.dir/main.cpp.o CMakeFiles/shipping_render.dir/Place.cpp.o CMakeFiles/shipping_render.dir/Routes.cpp.o  -o shipping_render   -L/home/ychixm/CLionProjects/shipping_render/SFML_LIBRARY_DIR  -Wl,-rpath,/home/ychixm/CLionProjects/shipping_render/SFML_LIBRARY_DIR -lsfml-graphics -lsfml-window -lsfml-system 

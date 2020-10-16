@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ychixm/CLionProjects/shipping_render/Place.h
+SFML/Graphics.hpp
+-
+SFML/Graphics/CircleShape.hpp
+-
+SFML/Graphics/Text.hpp
+-
+string
+-
+iostream
+-
+
+/home/ychixm/CLionProjects/shipping_render/Routes.h
+list
+-
+utility
+-
+Place.h
+/home/ychixm/CLionProjects/shipping_render/Place.h
+
+/home/ychixm/CLionProjects/shipping_render/main.cpp
+SFML/Graphics.hpp
+-
+list
+-
+Place.h
+/home/ychixm/CLionProjects/shipping_render/Place.h
+Routes.h
+/home/ychixm/CLionProjects/shipping_render/Routes.h
+
