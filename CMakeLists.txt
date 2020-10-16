@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SFML_INCLUDE_DIR "/home/ychixm/Documents/SFML-2.5.1-Compiled/include")
 set(SFML_LIBRARY_DIR "/home/ychixm/Documents/SFML-2.5.1-Compiled/lib")
-set(SFML_DIR "/home/rewieer/Libraries/SFML-2.5.1/lib/cmake/SFML")
+set(SFML_DIR "/home/ychixm/Documents/SFML-2.5.1-Compiled/lib/cmake/SFML")
 
 link_directories(SFML_LIBRARY_DIR)
 include_directories(SFML_INCLUDE_DIR)

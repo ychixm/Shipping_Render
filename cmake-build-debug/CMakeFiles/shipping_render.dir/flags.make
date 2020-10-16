@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ychixm/CLionProjects/shipping_render/SFML_INCLUDE_DIR 
+CXX_INCLUDES = -I/home/ychixm/CLionProjects/shipping_render/SFML_INCLUDE_DIR -isystem /home/ychixm/Documents/SFML-2.5.1-Compiled/include 
 

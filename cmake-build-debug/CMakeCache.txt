@@ -235,6 +235,9 @@ SFMLApp_SOURCE_DIR:STATIC=/home/ychixm/CLionProjects/shipping_render
 //The directory containing a CMake configuration file for SFML.
 SFML_DIR:PATH=SFML_DIR-NOTFOUND
 
+//Path to a file.
+SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
+
 //Value Computed by CMake
 shipping_render_BINARY_DIR:STATIC=/home/ychixm/CLionProjects/shipping_render/cmake-build-debug
 

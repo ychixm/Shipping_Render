@@ -5,7 +5,7 @@
 		<Option title="shipping_render"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Documents\;CMake Files\..\..\Documents\SFML-2.5.1-Compiled\;CMake Files\..\..\Documents\SFML-2.5.1-Compiled\lib\;CMake Files\..\..\Documents\SFML-2.5.1-Compiled\lib\cmake\;CMake Files\..\..\Documents\SFML-2.5.1-Compiled\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/ychixm/CLionProjects/shipping_render/cmake-build-debug"/>
@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/ychixm/CLionProjects/shipping_render/SFML_INCLUDE_DIR"/>
+					<Add directory="/home/ychixm/Documents/SFML-2.5.1-Compiled/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -69,6 +70,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/ychixm/CLionProjects/shipping_render/SFML_INCLUDE_DIR"/>
+					<Add directory="/home/ychixm/Documents/SFML-2.5.1-Compiled/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -103,6 +105,21 @@
 		</Unit>
 		<Unit filename="/home/ychixm/CLionProjects/shipping_render/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ychixm/CLionProjects/shipping_render/../../Documents/SFML-2.5.1-Compiled/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1-Compiled\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/ychixm/CLionProjects/shipping_render/../../Documents/SFML-2.5.1-Compiled/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1-Compiled\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/ychixm/CLionProjects/shipping_render/../../Documents/SFML-2.5.1-Compiled/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1-Compiled\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/ychixm/CLionProjects/shipping_render/../../Documents/SFML-2.5.1-Compiled/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1-Compiled\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/ychixm/CLionProjects/shipping_render/../../Documents/SFML-2.5.1-Compiled/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\SFML-2.5.1-Compiled\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

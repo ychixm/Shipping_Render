@@ -129,6 +129,9 @@ shipping_render: CMakeFiles/shipping_render.dir/main.cpp.o
 shipping_render: CMakeFiles/shipping_render.dir/Place.cpp.o
 shipping_render: CMakeFiles/shipping_render.dir/Routes.cpp.o
 shipping_render: CMakeFiles/shipping_render.dir/build.make
+shipping_render: /home/ychixm/Documents/SFML-2.5.1-Compiled/lib/libsfml-graphics.so.2.5.1
+shipping_render: /home/ychixm/Documents/SFML-2.5.1-Compiled/lib/libsfml-window.so.2.5.1
+shipping_render: /home/ychixm/Documents/SFML-2.5.1-Compiled/lib/libsfml-system.so.2.5.1
 shipping_render: CMakeFiles/shipping_render.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ychixm/CLionProjects/shipping_render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable shipping_render"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shipping_render.dir/link.txt --verbose=$(VERBOSE)
