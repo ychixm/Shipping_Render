@@ -8,11 +8,13 @@ class Routes {
     private:
 
         std::list<Place> m_points;
+        std::string name;
         sf::Color m_color;
         sf::ConvexShape m_shape;
+        sf::VertexArray m_road;
 
     public:
-    Routes(std::list<Place> points,sf::Color c);
+    Routes(std::list<Place> points,sf::Color c,std::string name = "");
 
     void makeShape();
 

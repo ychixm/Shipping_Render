@@ -12,12 +12,12 @@ class Place {
     private:
         sf::CircleShape m_points;
         std::string m_name;
-        char type;
         int m_x;
         int m_y;
 
     public:
-        Place(int x, int y, const std::string& name);
+        Place(int x, int y, const std::string& name,sf::Color color);
+        Place(int x, int y, const std::string& name,double ratio);
 
         const sf::CircleShape &getPoints() const;
 

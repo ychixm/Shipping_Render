@@ -15,11 +15,25 @@ void Place::display(sf::RenderWindow &w) {
    // w.draw(m_name);
 }
 
-Place::Place(int x, int y, const std::string& name):m_x(x),m_y(y){
+Place::Place(int x, int y, const std::string& name,sf::Color color):m_x(x),m_y(y){
     m_points.setRadius(5.f);
-    m_points.setPosition(x+20,y+20);
+    m_points.setPosition(float(x)+22,float(y)+15);
     m_points.setOrigin(m_points.getRadius(),m_points.getRadius());
     m_name = name;
+    m_points.setFillColor(color);
+    m_points.setOutlineColor(color);
+/*
+    m_points.setFillColor(sf::Color(255,255*ratio,int(255*ratio)));
+    m_points.setOutlineColor(sf::Color(255,255*ratio,int(255*ratio)));*/
+}
+
+Place::Place(int x, int y, const std::string& name,double ratio):m_x(x),m_y(y){
+    m_points.setRadius(5.f);
+    m_points.setPosition(float(x)+22,float(y)+15);
+    m_points.setOrigin(m_points.getRadius(),m_points.getRadius());
+    m_name = name;
+    m_points.setFillColor(sf::Color(255,255*ratio,int(255*ratio)));
+    m_points.setOutlineColor(sf::Color(255,255*ratio,int(255*ratio)));
 }
 
 const std::string &Place::getName() const {

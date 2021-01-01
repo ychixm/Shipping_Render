@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 project(shipping_render)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 set(SFML_INCLUDE_DIR "/home/ychixm/Documents/SFML-2.5.1-Compiled/include")
 set(SFML_LIBRARY_DIR "/home/ychixm/Documents/SFML-2.5.1-Compiled/lib")
